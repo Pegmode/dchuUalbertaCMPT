@@ -1,5 +1,5 @@
 # dchuUalbertaCMPT
-Repository of what course work I could find from my time at the University of Alberta
+Repository of what course work I could find on the lab servers from my time at the University of Alberta. Is missing a lot of content.
 
 Does not include cmput301, cmput404 and cmput429 as I have separate repositories for those projects.
 
