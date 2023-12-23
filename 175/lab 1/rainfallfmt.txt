@@ -1,0 +1,28 @@
+[51, 60]
+[61, 70]
+          AKRON           65.6
+          ALTON           69.7
+[71, 80]
+          ALGONA          78.0
+[81, 90]
+         CARROLL          84.7
+          ANKENY          84.8
+         AUDUBON          84.9
+         CASCADE          85.0
+         BRIGHTON         85.3
+         ALLISON          85.4
+         BUCKEYE          85.5
+          AMESSE          86.2
+          AMESW           86.5
+         BELLEVUE         87.2
+         ATLANTIC         88.3
+       BEACONSFIELD       89.6
+         ANAMOSA          89.7
+[91, 100]
+         BLOCKTON         92.2
+          BOONE           92.2
+         BEDFORD          92.3
+        BURLINGTON        93.8
+          ALBIA           95.6
+      BURLINGTONKBUR      96.4
+        BLOOMFIELD        96.6

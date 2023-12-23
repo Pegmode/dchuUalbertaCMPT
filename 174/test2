@@ -1,0 +1,18 @@
+def  capitalize_letter(word, letter):
+	'''
+	This function should find all instances of the
+	letter in the provided word. It should capitalize
+	each occurrence of the letter and return a count
+	of the number of times the letter was found.
+	'''
+ 	count = 0
+ 	for index in range(len(word)):
+     		if word[index] == letter:
+     			count = count + 1     
+            		word[index] = letter.upper()
+    	return count
+
+
+a = ['a','p','p','l','e']
+b = 'apple'
+c = 'p'

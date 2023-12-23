@@ -1,0 +1,61 @@
+CMPUT 229 - Computer Organization and Architecture I
+Lab 1: RPN Calculator
+
+Student Name: Daniel Chu 1493374
+
+
+Question 1:
+	The programs output was "hello risc-v"
+
+Question 2:
+	Register s1's max value is 0x1001001a when the program is run
+
+Question 3:
+	The program counters (PC) value before excecuting the instruction that results in s1's max value is 0x0040001c
+
+Question 4:
+	Both the load byte instruction (LB rd,offset(rs1)) and store byte instruction (SB rs2,offset(rs1))
+	are called 13 times. The values stored are 0x68, 0x65, 0x6c, 0x6c, 0x6f, 0x20, 0x72, 0x69, 0x73, 0x63, 0x2d, 0x76 and 0
+
+Question 5:
+	Address		   	|Data|
+	0x1001000C		|0x00|
+	0x1001000B		|0x76|
+	0x1001000A		|0x2d|
+	0x10010009		|0x63|
+	0x10010008		|0x73|
+	0x10010007		|0x69|
+	0x10010006		|0x72|
+	0x10010005		|0x20|
+	0x10010004		|0x6f|
+	0x10010003		|0x6c|
+	0x10010002		|0x6c|
+	0x10010001		|0x65|
+	0x10010000		|0x68|
+
+	Instruction at address 0x00400044 is sub x0,x4,x5 which can be represented by the
+	machine instruction 0x40520033
+
+Question 6:
+	The ASCII representation of the machine instruction at adress  0x00400044  is :
+	3 NULL R (
+
+Question 7:
+	the bytes 0x40520033 as a two-complement integer would represent the positive number
+
+Question 8:
+	922TUPMC
+
+Question 9:
+	Directives:
+		.word 76, -5, 23, 5	store the following entries as 32-bit words (one entry per 32-bit word)
+		.asciz "Hello"	store the following entries as their 8-bit ascii representations with a null terminator (alias for .string)
+		.ascii "World"	store the following entries as their 8-bit ascii representations without a null terminator
+		.align 2
+		.space 5	reserve the next 5 bytes of memory
+		.byte 42, 'h', 'i'	store the following values as bytes (one entry per address)
+
+Question 10:
+	Keep track of a stack pointer and the stacks base address. Subtract the base adress from the pointers address
+
+

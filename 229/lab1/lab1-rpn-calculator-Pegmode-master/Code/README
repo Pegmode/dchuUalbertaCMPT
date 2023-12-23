@@ -1,0 +1,77 @@
+#######################
+#TESTCASE GENERATION
+#######################
+
+To generate a test case write the representation of an input token list into a .txt file, with the following guidelines for each file:
+
+	-All expressions written must be in postfix ordering. 
+	-Each token must be on a newline. 
+	-The last token must be the sentinel -3. 
+	-All operands must be positive values 
+	-Only the operators + (represented as -1) and - (represented as -2) are permitted. 
+	-There must be at least two operands before the first operator 
+	-The ratio of operators to operands must assure that the stack only contains one value upon program termination.
+
+For example the valid postfix ordered test case from the infix notation “1 - 2” would be:
+
+1
+2
+-2
+-3
+
+Generated tests should go in the tests directory. 
+
+#======================
+# EXECUTION PERMISSION
+# 
+# For the next steps, you need to ensure that the shell scripts (compileTests.sh and runTest.sh) has permission for 
+# execution so that it can run as a program. To see the permissions that all your files have you can run the command:
+# 
+# ls -l
+# 
+# An r indicates read permission, a w indicates write permission, and an x indicates execution permission.
+# 
+# To add execution permission to the file runTest.sh you need to execute this command:
+# 
+# chmod u+x [script.sh]
+# 
+#======================
+
+Once you have generated the .txt files, to generate the input token list files (.bin files that are required by the common.s file), run the following script:
+
+  ./compileTests.sh
+
+To compile a single .txt file to .bin format use:
+
+  python3 convert.py tests/TESTFILE.txt
+
+
+
+#######################
+#RUNNING YOUR PROGRAM
+#######################
+
+Place your code in a file named lab1.s, where the first label under the .text directive MUST BE ‘calculator’, and save it under the current directory.
+
+To generate the output of your program for a test case use the following script:
+
+   ./runTest.sh YOURLABFILE TESTFILE
+
+NOTE: the TESTFILE is the .bin file not the .txt file
+
+You have two options for the location of your files:
+
+(1) You can ensure that both YOURLABFILE and TESTFILE are both in the same current directory
+(2) You can specify the path to these files. For instance, if your TESTFILE is in the tests subdirectory, you would be running the command:
+
+   ./runTest.sh YOURLABFILE tests/TESTFILE
+
+ 
+
+#######################
+#TESTING ON CHECKMYLAB
+#######################
+
+Testcase submissions to CheckMyLab MUST be .bin format files. Do not submit the .txt files to CheckMyLab. Follow the steps below the TESTCASE GENERATION heading to generate the .bin files from .txt files.
+
+To run your solution in CheckMyLab you need to submit the combination of the common.s file with your lab1.s file. This combination is generated as the file testbuild.s when you run the script runTest.sh as explained above.

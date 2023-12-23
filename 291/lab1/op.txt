@@ -1,0 +1,11 @@
+Q1:
+9.4
+Q2:
+La Liga|3
+Premier|2
+Series a|2
+Q3:
+0|McDavid|defender
+11|Bouchard|middle
+12|Graunlund|middle
+20|Archibald|middle

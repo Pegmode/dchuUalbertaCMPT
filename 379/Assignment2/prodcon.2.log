@@ -1,0 +1,48 @@
+  0.000  ID= 1          Ask            
+  0.000  ID= 0   Q= 1   Work            4  
+  0.001  ID= 0   Q= 2   Work            2  
+  0.001  ID= 0   Q= 3   Work            1  
+  0.001  ID= 0   Q= 4   Work            1  
+  0.001  ID= 0          Sleep           9  
+  0.000  ID= 2          Ask            
+  0.000  ID= 3          Ask            
+  0.001  ID= 1   Q= 3   Receive         4  
+  0.002  ID= 2   Q= 2   Receive         2  
+  0.002  ID= 3   Q= 1   Receive         1  
+  0.008  ID= 3   Q= 1   Complete        1  
+  0.008  ID= 3          Ask            
+  0.009  ID= 3   Q= 0   Receive         1  
+  0.008  ID= 2   Q= 1   Complete        2  
+  0.009  ID= 2          Ask            
+  0.011  ID= 1   Q= 0   Complete        4  
+  0.013  ID= 1          Ask            
+  0.013  ID= 3   Q= 0   Complete        1  
+  0.013  ID= 3          Ask            
+  0.014  ID= 0   Q= 1   Work            5  
+  0.014  ID= 0          Sleep           1  
+  0.014  ID= 2   Q= 0   Receive         5  
+  0.022  ID= 0   Q= 1   Work            1  
+  0.022  ID= 0   Q= 2   Work            1  
+  0.026  ID= 0   Q= 3   Work            1  
+  0.027  ID= 0          End            
+  0.027  ID= 1   Q= 2   Receive         1  
+  0.027  ID= 3   Q= 1   Receive         1  
+  0.034  ID= 2   Q= 1   Complete        5  
+  0.037  ID= 2          Ask            
+  0.040  ID= 2   Q= 0   Receive         1  
+  0.040  ID= 3   Q= 1   Complete        1  
+  0.041  ID= 3          Ask            
+  0.037  ID= 1   Q= 1   Complete        1  
+  0.041  ID= 1          Ask            
+  0.044  ID= 2   Q= 0   Complete        1  
+  0.045  ID= 2          Ask            
+Summary:
+  Work              8
+  Ask              11
+  Receive           8
+  Complete          8
+  Sleep             2
+  Thread  1         2
+  Thread  2         3
+  Thread  3         3
+Transactions per second:176.96

@@ -1,0 +1,9 @@
+total 21K
+drwxr-xr-x+ 2 dchu ugrad  2 Sep  5  2018 [0m[01;34mDesktop[0m
+drwxr-xr-x+ 6 dchu ugrad  9 Sep 11 16:51 [01;34mDocuments[0m
+drwxr-xr-x+ 2 dchu ugrad 15 Sep  6 18:17 [01;34mDownloads[0m
+drwxr-xr-x+ 2 dchu ugrad  2 Sep  5  2018 [01;34mMusic[0m
+drwxr-xr-x+ 2 dchu ugrad  2 Sep  5  2018 [01;34mPictures[0m
+drwxr-xr-x+ 2 dchu ugrad  2 Sep  5  2018 [01;34mPublic[0m
+drwxr-xr-x+ 2 dchu ugrad  2 Sep  5  2018 [01;34mTemplates[0m
+drwxr-xr-x+ 2 dchu ugrad  2 Sep  5  2018 [01;34mVideos[0m

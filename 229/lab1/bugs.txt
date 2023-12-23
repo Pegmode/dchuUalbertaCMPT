@@ -1,0 +1,17 @@
+Daniel Chu
+1493374
+CMPUT229
+University of Alberta
+
+
+Errors:
+  - line 78: attempt to store t0 as word when it has been loaded as a byte
+    - I have corrected it to be only bytes (sb)
+
+  - Line 95: opposite conditional of whats needed. We only want to exit the checkLoop and flag the string
+  as not a palindrome if the 2 entires are not equivalent
+    - I have corrected it to branch if not equal (bne)
+
+  - line 100: Since I decided we are working in bytes in the error correction in line 78
+  we only need to advance the s1 register containing the address by 1.
+    -changed to immediate add by 1 (addi s1,s1,1)

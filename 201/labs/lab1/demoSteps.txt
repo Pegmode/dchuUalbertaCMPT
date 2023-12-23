@@ -1,0 +1,21 @@
+Daniel Chu
+1493374
+CMPUT201
+University of Albera
+
+Demo steps
+  1.navigate to working directory
+  2.type vi or nano or emacs or mousepad ls_com.txt
+    -I personally use a text editor that has sftp capability to save on the Universitys computer
+  3.type the contents of the file and save
+  4.type the command you put down in ls_com.txt
+  5.copy the output into ls_out.txt
+  6.while in the same directory as hello.c compile hello.c using gcc -Wall -std=c99 hello.c -o hello
+    -I have set up an alias called g that runs  "gcc -Wall -std=c99"
+  7. type ./hello to run
+  8.while in a directory containning ls_com.txt, ls_out.txt and hello.c type
+  tar cvf submit.tar ls_com.txt ls_out.txt hell.c
+  9.type mkdir test
+  10.type mv submit.tar test
+  11. type cd test
+  12. type tar xf submit.tar 

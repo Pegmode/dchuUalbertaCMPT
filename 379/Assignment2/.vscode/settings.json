@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.DMG": "gbz80",
+        "stdio.h": "c"
+    }
+}
